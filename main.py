@@ -38,8 +38,8 @@ Top_100_songs.append(song_names)
 print(Top_100_songs)
 
 #Spotify Authentication
-SPOTIPY_CLIENT_ID = "11548843d95b47f39a773c62aed14603"
-SPOTIPY_CLIENT_SECRET = "216833cab5ed4cd8b0dd1e395ac5af5b"
+SPOTIPY_CLIENT_ID = ""
+SPOTIPY_CLIENT_SECRET = ""
 SPOTIPY_REDIRECT_URL = "http://example.com "
 
 credentials = SpotifyClientCredentials(client_id=SPOTIPY_CLIENT_ID, client_secret=SPOTIPY_CLIENT_SECRET)
